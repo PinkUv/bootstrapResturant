@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  font-family: fira-mono-regular;
+  color: #444;
+}
+
+.navbar-brand {
+  letter-spacing: 0.2rem
+}
+
+h2 {
+  font-weight: 600;
+  color: #222;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  scale: 110%;
+  transition: all 0.2s;
+  color:  #17a589  ;
+}
+
+/* Button */
+
+.btn {
+  border-width: 1px; 
+  padding: 14px 38px;
+  border-radius: 0;
+}
+
+.btn-brand {
+  background-color: #17a589;
+  border-color: #17a589;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-brand:hover {
+  background-color: #128a74;
+}
+
+.btn-order:hover {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #333;
+  color: #333;
+}
+
+/* Slider */
+
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./resources/landing.jpg);
+}
+
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./resources/landing2.jpg);
+}
+
+.bg-cover {
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Menu section */
+.menu-section {
+  margin-top: 3em;
+}
+
+.card:hover {
+  scale: 105%;
+  transition: all 0.2s;
+}
